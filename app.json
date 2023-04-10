@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "pokedex",
+    "slug": "pokedex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/app/icon.png",
+    "entryPoint": "./src/App.tsx",
+    "splash": {
+      "image": "./src/assets/images/app/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FE3D00"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/app/adaptive-icon.png",
+        "backgroundColor": "#FE3D00"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/images/app/favicon.png"
+    }
+  }
+}
